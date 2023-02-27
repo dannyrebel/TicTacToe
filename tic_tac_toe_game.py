@@ -48,7 +48,7 @@ while play:
     # Announce winner and restart game
     if finished:
         sleep(0.5)
-        if check_turn(turn) == "X":
+        if check_turn(turn) == "O":
             print("Player 1 wins!")
         else:
             print("Player 2 wins!")
